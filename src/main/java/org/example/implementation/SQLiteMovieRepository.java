@@ -5,6 +5,7 @@ import org.example.model.Movie;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.CinemaFlixAplication;
 
 public class SQLiteMovieRepository implements MovieRepository {
     private final Connection connection;

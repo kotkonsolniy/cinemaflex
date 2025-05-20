@@ -4,6 +4,7 @@ import org.example.model.Movie;
 import java.util.List;
 
 public interface MovieRepository {
+    void save(Movie movie);
     void addMovie(Movie movie);
     void updateMovie(Movie movie);
     void deleteMovie(int id);
